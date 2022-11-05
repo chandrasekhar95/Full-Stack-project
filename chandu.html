@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylepro.css">
+  <link href="chandu.css" rel="stylesheet">
+  <style>
+    .fa {
+      font-size: 50px;
+      cursor: pointer;
+
+      color: rgb(55, 205, 50);
+    }
+    
+    
+    .hd{
+      background-image: url('bg2.png');
+      background-size:100%;
+      background-repeat: no-repeat;
+    }
+    </style>
+</head>
+<body style="background-image: url(shayari.jpg);">
+  
+  <div class="navbar">
+    <nav>
+    <ul>
+      <li><a href="chandu.html">Home</a></li>
+      <li><a href="intro.html">Introduction</a></li>
+
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+    </nav>
+    </div>
+  <header class="hd">
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Shayari's Blog</h1>
+          
+  </header>
+  <article>
+    <h2>Intezaar</h2>
+    <p>Hum Aapki Har Cheez Se Pyar Kar Lenge,
+Aapki Har Baat Par Aitbaar Kar Lenge,
+Bas Ek Bar Keh Do Ki Tum Sirf Mere Ho,
+Hum Zindagi Bhar AapKa Intezaar Kar Lenge..</p>
+    
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+  </article>
+  <article>
+    <h2>Milna Mukaddar Mein Likha Nahi</h2>
+    <p>Jinka Milna Mukaddar Mein Likha Nahi Hota,
+Unse Mohabbat Kasam Se Ba-Kamaal Hoti Hai.</p>
+
+    
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+  </article>
+  <article>
+    <h2>Sad Shayari, Pehli Mohabbat Ka Anzaam</h2>
+    <p>Har Tanha Raat Mein Ek Naam Yaad Aata Hai,
+Kabhi Subhah To Kabhi Shaam Yaad Aata Hai,
+Jab Sochte Hain Kar Lein Dobara Mohabbat,
+Fir Pehli Mohabbat Ka Anzaam Yaad Aata Hai.</p>
+
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+   
+  </article>
+  
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
